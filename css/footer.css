@@ -1,0 +1,140 @@
+.footer-container{
+    height: 71.5em;
+    background-color: #0C0C0C;
+}
+
+.footer-logo-text{
+    padding: 2.5em 5.875em 0 5.875em;
+    text-align: center;
+}
+
+.footer-text1{
+    padding-top: 1.5em;
+    color: #F4F4F4;
+    font: 1em 'Nunito Sans', sans-serif;
+    font-weight: 300;
+}
+
+.logo-negrito-footer{
+    font-weight: 700;
+    font-style: normal;
+}
+
+.logo-footer{
+    color: #A55C30;
+    font: 1.5em 'Lora', serif;
+    font-style: italic;
+}
+
+.news-letter{
+    text-align: center;
+    padding: 5.5em 2.375em 0 2.375em;
+}
+.news-letter-title{
+    color: #A55C30;
+    font: 1.5em 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+
+.news-text{
+    color: #F4F4F4;
+    font: 1em 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    padding-top: 2em;
+    padding-bottom: 1.188em;
+}
+
+.news-email{
+    width: 82%;
+    height: 3.375em;
+    border: 0.031em;
+    background-color: var(--main-white);
+}
+
+.news-email::placeholder{
+    font: 1em 'Lato', sans-serif;
+    font-weight: 400;
+    color: rgba(159, 159, 159, 0.59);
+    padding-left: 1.438em;
+}
+
+.news-btn{
+    cursor: pointer;
+    background-color: #A55C30;
+    font: 1.125em 'Lato', sans-serif;
+    font-weight: 700;
+    color: var(--main-white);
+    width: 47%;
+    height: 3em;
+    border: 0;
+}
+
+.div-to-padding{
+    padding-top: 1.25em;
+}
+
+.contact-info-footer{
+    text-align: center;
+    padding-top: 5.5em;
+}
+
+.contact-title-footer{
+    color: #A55C30;
+    font: 1.5em 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    padding-bottom: 2em;
+}
+
+.location-info-footer, .contact-email-footer, .contact-number-footer{
+    display: flex;
+    text-align: left;
+    padding-left: 25%;
+}
+
+.location-text-footer, .number-text-footer, .email-text-footer{
+    font: 1em "Nunito Sans", sans-serif;
+    font-weight: 400;
+    color: #F4F4F4;
+    padding-left: 1.313em;
+    text-align: left;
+}
+
+.email-text-footer{
+    font-weight: 300;
+}
+
+.contact-number-footer{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.social-media-copy{
+    text-align: center;
+    padding-top: 5.5em;
+}
+
+.twitter-icon{
+    padding: 0 2.398em;
+}
+
+.div-to-centralize-line{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.563em;
+    padding-bottom: 0.625em;
+}
+
+.line-social-media{
+    display: flex;
+    justify-content: center;
+    width: 19.375em;
+    height: 0.094em;
+    background-color: rgba(229, 229, 229, 0.4);
+}
+
+.copyright{
+    font: 0.75em "Nunito Sans", sans-serif;
+    font-weight: 300;
+    color: #F4F4F4;
+}
+

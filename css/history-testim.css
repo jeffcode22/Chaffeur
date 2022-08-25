@@ -1,0 +1,128 @@
+.history{
+    display: flex;
+    justify-content: center;
+    background-color: #F4F4F4;
+}
+.company-history{
+    text-align: center;
+    display: block;
+    background-color: #232222;
+    color: var(--main-white);
+    height: 34.063em;
+    width: 90vw;
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 1.5em;
+}
+
+.history-number{
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.history-text{
+    font-size: 1em;
+}
+
+.history-content:nth-child(1){
+    padding: 3em 0 3em 0;
+}
+
+.history-content:nth-child(2){
+    padding: 0em 0 3em 0;
+}
+
+/* testimonials */
+
+.company-testim{
+    display: flex;
+    justify-content: center;
+    background-color: #F4F4F4;
+}
+
+.testim-container{
+    background-color: #F8D7A4;
+    width: 90vw;
+    height: 48.688em;
+    justify-content: center;
+    text-align: center;
+    display:block;
+    align-items: center;
+}
+
+.testim-title{
+    font: 2em 'Lora', serif;
+    font-weight: 700;
+    color:#A55C30;
+    padding: 1.3em 0 2.3em 0;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+.card-testim{
+    margin: 0 .9em 0 .9em;
+    padding: 0em 6em 0em 6em;
+    width: 80%;
+    height: 27.688em;
+    background-color: var(--main-white);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.card-text{
+    padding-top: 1.9em;
+    font: 1em "Nunito Sans", serif;
+    font-style: italic;
+    font-weight: 400;
+    color: #272727;
+    line-height: 1.313em;
+}
+
+.feedback-img{
+    padding: 1.813em 0 2.125em 0;
+}
+
+.avatarPics , .avatar-pics{
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 50%;
+}
+
+.client-name, .clientName{
+    font: 1.3em "Nunito Sans", serif;
+    font-weight: 700;
+    color: #272727;
+}
+
+.client-city, .clientCity{
+    font: .9em "Nunito Sans", serif;
+    font-weight: 300;
+    color: #979797;
+}
+
+.btn-testim{
+    padding-top: 4.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-icon-testim{
+    cursor: pointer;
+    background-color: var(--main-white);
+    width: 3em;
+    height: 3em;
+    border-radius: 3em;
+}
+
+.btn-icon-testim:nth-child(2){
+    margin: 0 2em;
+    background-color: #A55C30;
+}
+
+#btn-testim-clicked{
+    background-color: #A55C30;
+}
+
+#btn-testim-remove{
+    background-color: #FFFFFF;
+}

@@ -1,0 +1,105 @@
+.company-contact{
+    position: relative;
+    text-align: center;
+    height: 19.188em;
+    width: 100vw;
+    background-image: url(/img/car-bg-contact.svg);
+}
+
+.contact-text{
+    font: 1.25em "Noto Sans", sans-serif;
+    color: var(--main-white);
+    font-weight: 400;
+    padding: 3.25em 0 2em 0;
+}
+
+.contact-text2{
+    font: 2em "Noto Sans", sans-serif;
+    color: var(--main-white);
+    font-weight: 600;
+    margin-bottom: 1.5em;
+}
+
+/* contact form */
+
+.contact-form{
+    text-align: center;
+    height: 52.5em;
+    background-color: var(--main-white);
+}
+
+.form-title{
+    font: 2em "Lora", serif;
+    font-weight: 700;
+    color: #A55C30;
+    padding: 3em 0 1.5em 0;
+}
+
+.div-to-centralize-container{
+    display: flex;
+    justify-content: center;
+}
+
+.form-container{
+    height: 35.5em;
+    width: 90vw;
+    background-color: #E8EAEC;
+    display: block;
+}
+
+.form-contact{
+    padding: 2em 0 1em 0;
+}
+
+.form-inputs{
+    width: 90%;
+    height: 3em;
+    border: .031em;
+    font: 1em 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.form-inputs:nth-child(1){
+    margin-bottom: .75em;
+}
+
+.form-inputs:nth-child(2){
+    margin-bottom: .75em;
+}
+.form-inputs:nth-child(3){
+    margin-bottom: .75em;
+}
+
+.form-inputs::placeholder{
+    color: rgba(159, 159, 159, 0.59);
+    padding-left:1.625em;
+}
+
+
+.client-details{
+    border: .031em;
+    width: 90%;
+    height: 12.75em;
+    margin-bottom: 2em;
+    border: .031em;
+    font: 1em 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.client-details::placeholder{
+    color: rgba(159, 159, 159, 0.59);
+    padding-left:1.625em;
+    margin-bottom: 10em;
+}
+
+.contact-btn{
+    cursor: pointer;
+    width: 10.063em;
+    height: 3.75em;
+    background-color: #A55C30;
+    color: var(--main-white);
+    font-weight: 700;
+    font: 1.125em 'Lato', sans-serif;
+    border: 0;
+    padding-bottom: .4em;
+}

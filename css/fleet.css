@@ -1,0 +1,109 @@
+.section-4{
+    background-color: #FAFAFA;
+}
+
+.section-4-title{
+    font: var(--size-font-titles);
+    color: var(--color-titles);
+    font-weight: var(--weight-titles);
+    text-align: center;
+    padding: 2.5em 0 2.25em 0;
+}
+
+.cars{
+    display: flex;
+    margin-bottom: 3em; 
+    justify-content: center;
+}
+
+.cars-card{
+    box-shadow: 0px 4px 30px 10px rgba(0,0,0,0.05);
+    text-align: center;
+    margin: 0 .9em 0 .9em;
+    padding: 4em 2em 0em 2em;
+    width: 21em;
+    height: 24.8em;
+    background-color: var(--main-white)
+}
+#suv-img{
+    width: 14.625em;
+    height: 7.563em;
+}
+
+.carTitles{
+    font: 1em 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    color: var(--color-titles);
+    padding: 1.266em 0 .1em 0;
+}
+
+.carName{
+    padding-bottom: 1em;
+    font-weight: 400;
+    color: #232222F5;
+    font: .75em 'Nunito Sans', sans-serif;
+    line-height: 1.125em;
+}
+
+.car-description{
+    font-weight: 400;
+    font: .75em 'Nunito Sans', sans-serif;
+    padding-bottom: 3em;
+}
+
+.car-info{
+    display: flex;
+    font: .875em 'Nunito Sans', sans-serif;
+    color: #232222F5;
+    justify-content: space-evenly;
+}
+
+.seats{
+    display: flex;
+    padding: 0 2.5em 0 0;
+}
+
+.luggage{
+    display: flex;
+    padding: 0 0 0 2.5em;
+}
+
+.info-text{
+    padding-left: .5em;
+}
+
+.details-icon2{
+    padding-right: .5em;
+}
+
+.car-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-icon{
+    width: 3em;
+    height: 3em;
+    border-radius: 3em;
+    background-color: #E5E5E5;
+    cursor: pointer;
+    margin-bottom: 5.625em;
+}
+
+.btn-icon:nth-child(2){
+    margin: 0 2em;
+    background-color: #F8D7A4;
+}
+
+#btn-clicked{
+    background-color: #F8D7A4 ;
+}
+
+#btn-remove-bg{
+    background-color: #E5E5E5;
+}
+
+#suv-img-dom{
+    width: 14.625em;
+    height: 7.563em;
+}

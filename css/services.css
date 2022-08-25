@@ -1,0 +1,77 @@
+.section-3{
+    background-color: rgba(0,0,0,100);
+    background-image:url(/img/section-3-bg.svg);
+    height: 78em;
+    min-width: 23.938em;
+    background-repeat: repeat-x;
+    background-size: cover;
+    display: block;
+    text-align: center;
+}
+
+/* background-image{
+    width: 100%;
+} */
+
+.section-3-title{
+    color: var(--color-titles);
+    font: var(--size-font-titles);
+    font-weight: var(--weight-titles);
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.star-icon{
+    width: 3.593em;
+    padding-bottom: 2em;
+}
+
+.services-title{
+    font: 1em 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    color: var(--main-white);
+}
+
+.section-3-text{
+    font: var(--size-font-p);
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.services-1-text1{
+    color: var(--main-white);
+    margin-bottom: 1.5em;
+    margin: 1.5em 0 1.5em 0;
+}
+
+.services-1-text2{
+    color: var(--main-white);
+}
+
+.chaffeur-icon{
+    width: 3.593em;
+    margin-top: 3.5em;
+}
+
+.services-2{
+    color: var(--main-white);
+}
+
+.services-2-title{
+    margin-top: 2em;
+}
+
+.services-2-text1{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.services-3{
+    color: var(--main-white);
+}
+.diamond-icon{
+    width: 3.593em;
+    margin-top: 3.5em;
+}
+
+
