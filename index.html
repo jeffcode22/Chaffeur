@@ -17,28 +17,50 @@
                 <nav class="nav">
                     <a href="#" class="nav-bar">
                         <p class="logo"><span class="logo-negrito">Lux</span>Chaffeur</p>
+                        
                     </a>
-                    <input type="checkbox" name="menu" id="menu" class="nav-btn__hamburguer">
-                    <label for="menu">
-                        <div class="menu nav-bar">
-                            <div class="bar"></div>
-                            <div class="bar"></div>
-                            <div class="bar"></div>
-                        </div>
-                    </label>
-                    <ul class="menu-list">
-                        <a href="#home-link" class="menu-list__title">
-                            <li>Home</li>
-                        </a><a href="#about-link" class="menu-list__title">
-                            <li>About</li>
-                        </a><a href="#services-link" class="menu-list__title">
-                            <li>Services</li>
-                        </a><a href="#fleet-link"class="menu-list__title">
-                            <li>Fleet</li>
-                        </a><a href="#contact-link" class="menu-list__title">
-                            <li>Contact</li>
+
+                    <ul class="menu-list-desktop">
+                        <a class="list-target" href="#home-link">
+                            <li class="list-nav-desktop">Home</li>
+                        </a>
+                        <a class="list-target" href="#about-link">
+                            <li class="list-nav-desktop">About</li>
+                        </a>
+                        <a class="list-target" href="#services-link">
+                            <li class="list-nav-desktop">Services</li>
+                        </a>
+                        <a class="list-target" href="#fleet-link">
+                            <li class="list-nav-desktop">Fleet</li>
+                        </a>
+                        <a class="list-target" href="#contact-link">
+                            <li class="list-nav-desktop">Contact Us</li>
                         </a>
                     </ul>
+
+                    <div class="hambu-menu">
+                        <input type="checkbox" name="menu" id="menu" class="nav-btn__hamburguer">
+                        <label for="menu">
+                            <div class="menu nav-bar">
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                            </div>
+                        </label>
+                        <ul class="menu-list">
+                            <a href="#home-link" class="menu-list__title">
+                                <li>Home</li>
+                            </a><a href="#about-link" class="menu-list__title">
+                                <li>About</li>
+                            </a><a href="#services-link" class="menu-list__title">
+                                <li>Services</li>
+                            </a><a href="#fleet-link"class="menu-list__title">
+                                <li>Fleet</li>
+                            </a><a href="#contact-link" class="menu-list__title">
+                                <li>Contact</li>
+                            </a>
+                        </ul>
+                    </div>
                 </nav>
             </header>
             <!-- menu -->
@@ -55,58 +77,63 @@
                 <div class="car-1">
                     <img class="img-car" src="img/main-car.svg" alt="car">
                 </div>
+                <div class="car-desktop">
+                    <img class="car-img-desktop" src="img/car.svg" alt="car">
+                    <img class="background-car" src="img/car-background.svg" alt="car background">
+                </div>
             </article>
         </section>
         <!-- first page -->
         <!-- second page -->
         <section class="section-2" id="about-link">
-            <img class="section-2-img" src="img/chaffeur.svg" alt="">
-            <div class="section-2-text">
-                <h1 class="section-2-title">About</h1>
+            <img class="section-2-img" src="img/About image.svg" alt="">
+            <div class="to-centralize-text">
+                <div class="section-2-text">
+                    <h1 class="section-2-title">About</h1>
                 
-                    <div class="section-2-all-p">
-                        <p class="section-2-p1">
-                            We are known for luxurious and <br>
-                            premium chaffeur services worldwide. We  <br> are simply the best you can find.
-                        </p>
-                        
-                        <p class="section-2-p2">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Interdum parturient laoreet nibh <br> vitae in duis eu vel. Sagittis eget volutpat ac <br> quisque tristique scelerisque proin. Vel nec ac ultrices mi viverra viverra. Mi, arcu sem nec risus <br> cursus ipsum leo. Eget erat tincidunt risus gravida <br> quis massa. Mauris, sed eu ut tellus sed sed <br> morbi.</p>
-                        <p class="section-2-p3">Rhoncus ultricies vel enim montes, molestie <br> sagittis dis. Cras lorem enim elementum vel <br> massa. Massa natoque ac libero adipiscing <br> facilisis vel iaculis. Sed nunc consectetur leo, in <br> sollicitudin. Proin et aenean vitae in nunc <br> pellentesque tristique.</p>
-                    </div>
+                        <div class="section-2-all-p">
+                            <p class="section-2-p1">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo dolore illum officiis quaerat. <br> We are known for luxurious and
+                                premium chaffeur services worldwide. We  are simply <br> the best you can find. <br> <br>
+                                Lorem ipsum dolor sit amet, consectetur  adipiscing elit. Interdum parturient  laoreet nibh vitae <br> in duis eu vel. Sagittis eget volutpat ac quisque tristique scelerisque proin.  Vel nec ac ultrices <br> mi viverra viverra. Mi, arcu sem nec risus cursus ipsum leo. Eget erat tincidunt <br> risus gravida quis massa. Mauris, sed eu ut tellus sed sed morbi. <br> <br>
+                                Rhoncus ultricies vel enim montes, molestie sagittis dis. Cras lorem enim br elementum vel <br> massa. Massa natoque ac libero adipiscing facilisis vel iaculis. Sed nunc consectetur leo, <br> in sollicitudin. Proin et aenean vitae in nuncpellentesque tristique.
+                            </p>
+                
+                            <!-- <p class="section-2-p2">Lorem ipsum dolor sit amet, consectetur  adipiscing elit. Interdum parturient laoreet nibh vitae in duis eu vel. Sagittis eget volutpat ac quisque tristique scelerisque proin. Vel nec ac ultrices mi viverra viverra. Mi, arcu sem nec risus cursus ipsum leo. Eget erat tincidunt risus gravida quis massa. Mauris, sed eu ut tellus sed sed morbi.</p>
+                            <p class="section-2-p3">Rhoncus ultricies vel enim montes, molestie sagittis dis. Cras lorem enim elementum vel massa. Massa natoque ac libero adipiscing facilisis vel iaculis. Sed nunc consectetur leo, in sollicitudin. Proin et aenean vitae in nuncpellentesque tristique. -->
+                        </div>
+                </div>
             </div>
             
         </section>
         <!-- second page -->
         <!-- third page -->
         <section class="section-3" id="services-link">
-            <h1 class="section-3-title">Services</h1>
-            <div class="services-1">
-                <img class="star-icon" src="img/star-icon.svg" alt="">
-                <p class="services-1-title services-title">Lorem ipsum dolor sit amet</p>
-
-                    <div class="section-3-text">
-                        <p class="services-1-text1">consectetur adipiscing elit. Interdum parturient laoreet nibh vitae in duis eu vel. Sagittis eget volutpat ac quisque </p>
-                        
-                        <p class="services-1-text2">tristique scelerisque proin. Vel nec ac ultrices mi viverra viverra. Mi, arcu sem nec risus cursus ipsum leo. Eget erat tincidunt ri</p>
-                    </div>
-            </div>
-
-            <div class="services-2">
-                <img class="chaffeur-icon" src="img/chaffeur-icon.svg" alt="">
-                <p class="services-2-title services-title">Lorem ipsum dolor sit amet</p>
-                <p class="services-2-text1 section-3-text ">consectetur adipiscing elit. Interdum parturient laoreet nibh vitae in duis eu vel. Sagittis eget volutpat ac quisque</p>
-                <p class="services-2-text2 section-3-text">
-                tristique scelerisque proin. Vel nec ac ultrices mi viverra viverra. Mi, arcu sem nec risus cursus ipsum leo. Eget erat tincidunt ri
-                </p>
-            </div>
-
-            <div class="services-3">
-                <img class="diamond-icon" src="img/diamond-icon.svg" alt="">
-                <p class="services-2-title services-title">Lorem ipsum dolor sit amet</p>
-                <p class="services-2-text1 section-3-text ">consectetur adipiscing elit. Interdum parturient laoreet nibh vitae in duis eu vel. Sagittis eget volutpat ac quisque</p>
-                <p class="services-2-text2 section-3-text services-3-text2">
-                tristique scelerisque proin. Vel nec ac ultrices mi viverra viverra. Mi, arcu sem nec risus cursus ipsum leo. Eget erat tincidunt ri
-                </p>
+            <h1 class="section-3-title section-3-title-desktop">Services</h1>
+            <div class="all-services-container">
+                <div class="services-1">
+                    <img class="star-icon star-icon-desktop" src="img/star-icon.svg" alt="">
+                    <p class="services-1-title services-title services-title-desktop">Lorem ipsum dolor sit amet</p>
+                            <p class="services-1-text1 section-3-text">consectetur adipiscing elit. Interdum <br> parturient laoreet nibh vitae in duis eu <br> vel. Sagittis eget volutpat ac quisque </p> <br>
+                            <p class="services-1-text2 section-3-text">tristique scelerisque proin. Vel nec ac <br> ultrices mi viverra viverra. Mi, arcu <br> sem nec risus cursus ipsum leo. Eget <br> erat tincidunt ri</p>
+                </div>
+                <div class="services-2">
+                    <img class="chaffeur-icon chaffeur-icon-desktop" src="img/chaffeur-icon.svg" alt="">
+                    <p class="services-2-title services-title services-title-desktop">Lorem ipsum dolor sit amet</p>
+                    <p class="services-2-text1 section-3-text ">consectetur adipiscing elit. Interdum <br>parturient laoreet nibh vitae in duis eu <br>vel. Sagittis eget volutpat ac quisque</p>
+                    <br>
+                    <p class="services-2-text2 section-3-text">
+                    tristique scelerisque proin. Vel nec ac<br> ultrices mi viverra viverra. Mi, arcu<br> sem nec risus cursus ipsum leo. Eget<br> erat tincidunt ri
+                    </p>
+                </div>
+                <div class="services-3 service-3-title-desktop">
+                    <img class="diamond-icon diamond-icon-desktop" src="img/diamond-icon.svg" alt="">
+                    <p class="services-2-title services-title services-title-desktop">Lorem ipsum dolor sit amet</p>
+                    <p class="services-2-text1 section-3-text ">consectetur adipiscing elit. Interdum<br>parturient laoreet nibh vitae in duis eu<br> vel. Sagittis eget volutpat ac quisque</p> <br>
+                    <p class="services-2-text2 section-3-text services-3-text2">
+                    tristique scelerisque proin. Vel nec ac<br> ultrices mi viverra viverra. Mi, arcu<br> sem nec risus cursus ipsum leo. Eget<br> erat tincidunt ri
+                    </p>
+                </div>
             </div>
         </section>
         <!-- third page -->
@@ -116,12 +143,11 @@
             <h1 class="section-4-title">Fleet</h1>
             <!-- carousel -->
             <div class="cars">
-
-                <div class="cars-card">
-                    <img class="carImg" src="img/business-car.svg" alt="car image">
-                    <h3 class="carTitles">BUSINESS CLASS</h3>
-                    <p class="carName">Mercedes G - wagon</p>
-                    <p class="car-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut eu tellus cursus faucibus duis hendrerit volutpat </p>
+                <div class="cars-card-all cars-card-1" id="carCardJsDesktop1"> 
+                    <img class="car-img" src="img/first-class.svg" alt="car image">
+                    <h3 class="car-titles">First Class</h3>
+                    <p class="car-name">Mercedes maybach s600</p>
+                    <p class="car-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="text-desktop-only">Praesent ut eu tellus cursus faucibus duis hendrerit volutpat Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis enim nam maiores assumenda! Voluptatibus minus expedita nam! Voluptatibus consequatur.</span></p>
                     <div class="car-info">
                         <div class="seats">
                             <img class="details-icon" src="img/seats-icon.svg" alt="seats-icon">
@@ -134,6 +160,37 @@
                     </div>
                 </div>
 
+                <div class="cars-card-all cars-card-2 carCardJsDesktop2" id="carCardJsDesktop2">
+                    <img class="carImg" src="img/business-car.svg" alt="car image">
+                    <h3 class="carTitles">BUSINESS CLASS</h3>
+                    <p class="carName">Mercedes G - wagon</p>
+                    <p class="car-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="text-desktop-only">Praesent ut eu tellus cursus faucibus duis hendrerit volutpat Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis enim nam maiores assumenda! Voluptatibus minus expedita nam! Voluptatibus consequatur.</span></p>
+                    <div class="car-info">
+                        <div class="seats">
+                            <img class="details-icon" src="img/seats-icon.svg" alt="seats-icon">
+                            <p class="info-text">4 Seats</p>
+                        </div>
+                        <div class="luggage">
+                            <img class="details-icon2" src="img/luggage-icon.svg" alt="seats-icon">
+                            <p class="info-text2">2 Luggage</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" cars-card-all cars-card-3 carCardJsDesktop3" id="carCardJsDesktop3">
+                    <img class="car-img" id="suv-img" src="img/suv.svg" alt="car image">
+                    <h3 class="car-titles">SUV</h3>
+                    <p class="car-name">Mercedes M class </p>
+                    <p class="car-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="text-desktop-only">Praesent ut eu tellus cursus faucibus duis hendrerit volutpat Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis enim nam maiores assumenda! Voluptatibus minus expedita nam! Voluptatibus consequatur.</span></p>
+                    <div class="car-info">
+                        <div class="seats">
+                            <img class="details-icon" src="img/seats-icon.svg" alt="seats-icon">
+                            <p class="info-text">4 Seats</p>
+                        </div>
+                        <div class="luggage">
+                            <img class="details-icon2" src="img/luggage-icon.svg" alt="seats-icon">
+                            <p class="info-text2">2 Luggage</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -143,24 +200,31 @@
                 <div class="btn-icon" id="btn-2-car"></div>
                 <div class="btn-icon" id="btn-3-car"></div>
             </div>
+            <div class="car-btn-desktop">
+                <div class="btn-icon-desktop" id="btn-1-car-desktop"></div>
+                <div class="btn-icon-desktop" id="btn-2-car-desktop"></div>
+                <div class="btn-icon-desktop" id="btn-3-car-desktop"></div>
+            </div>
             <!-- carousel -->
 
         </section>
 
         <!-- history -->
-        <section class="history">
-            <article class="company-history">
-                    <div class="history-content">
-                        <h2 class="history-number">70</h2>
-                        <p class="history-text">VEHICLES</p>
-                    </div>
-                    <div class="history-content">
-                        <h2 class="history-number">576</h2>
-                        <p class="history-text">Trips Done</p>
-                    </div>
-                    <div class="history-content">
-                        <h2 class="history-number">321</h2>
-                        <p class="history-text">EVENTS</p>
+        <section class="history history-desktop">
+            <article class="company-history company-history-desktop">
+                    <div class="history-container-content">
+                        <div class="history-content history-content-desktop">
+                            <h2 class="history-number ">70</h2>
+                            <p class="history-text">VEHICLES</p>
+                        </div>
+                        <div class="history-content history-content-desktop">
+                            <h2 class="history-number">576</h2>
+                            <p class="history-text">TRIPS DONE</p>
+                        </div>
+                        <div class="history-content history-content-desktop">
+                            <h2 class="history-number">321</h2>
+                            <p class="history-text">EVENTS</p>
+                        </div>
                     </div>
             </article>
         </section>
@@ -171,17 +235,43 @@
             <article class="testim-container">
                 <h1 class="testim-title">Testimonials</h1>
                 <div class="card-container">
-                    <div class="card-testim">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis dui nec massa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque hic porro alias provident ipsam.
+                    <!-- <div class="card-testim">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis dui nec massa.
                         </p>
                         <img class="feedback-img" src="img/star-testim.svg" alt="feedback">
                         <div class="client-info">
-                            <img class="avatarPics" src="img/client-2.svg" alt="client picture">
-                            <p class="clientName">Anne Rudy</p>
-                            <p class="clientCity">Las Vegas</p>
+                            <img src="img/client-2.svg" alt="client picture" class="avatar-pics">
+                            <p class="client-name">Anne Rudy</p>
+                            <p class="client-city">Las Vegas</p>
+                        </div>
+                    </div> -->
+
+                    <div class="card-testim">
+                        <div class="client-text-desktop">
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis dui nec massa.Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis<p class="card-text-2">Corrupti ipsa necessitatibus nulla debitis. consequuntur in hic. Rerum, possimus! Aspernatur molestiaedebitis eaque quaerat voluptatum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumendanulla ipsa deleniti deserunt blanditiis in vitae! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium totam deleniti maiores nihil perspiciatis nam magnam, eveniet eius commodi reiciendis. Fugit deserunt natus earum laudantium praesentium? Corrupti, quo! Voluptatibus, cupiditate!</p>
+                            </p>
+                            <img class="feedback-img-desktop" src="img/star-testim.svg" alt="feedback">
+                        </div>
+                        <div class="client-info-desktop">
+                            <img class="feedback-img" src="img/star-testim.svg" alt="feedback">
+                            <div class="client-info">
+                                <img class="avatarPics" src="img/client-2.svg" alt="client picture">
+                                <p class="clientName">Anne Rudy</p>
+                                <p class="clientCity">Las Vegas</p>
+                        </div>
                         </div>
                     </div>
 
+                    <!-- <div class="card-testim">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit Mattis dui nec massa.
+                        </p>
+                        <img class="feedback-img" src="img/star-testim.svg" alt="feedback">
+                        <div class="client-info">
+                            <img class="avatarPics" src="img/black-dud.svg" alt="client picture">
+                            <p class="clientName">James Smith</p>
+                            <p class="clientCity">New York</p>
+                        </div>
+                    </div> -->
                 </div>
                 <div class="btn-testim">
                     <div class="btn-icon-testim" id="btn-1-testim"></div>
@@ -195,7 +285,7 @@
         <!-- contact -->
         <section class="company-contact" id="contact-link">
             <article class="number-contact">
-                <p class="contact-text">We offer the best you can <br> imagine</p>
+                <p class="contact-text">We offer the best you can <br class="br-contact"> imagine</p>
                 <p class="contact-text2">Call Now for booking 01477 678905 </p>
             </article>
         </section>
@@ -232,16 +322,31 @@
                 <div class="logo-footer">
                     <p class="logo-footer"><span class="logo-negrito-footer">Lux</span>Chaffeur</p>
                 </div>
-                <p class="footer-text1">We are known for luxurious and
-                    premium chaffeur services worldwide. We are simply the best you can find. <br> <br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem consectetur sagittis auctor</p>
+                <p class="footer-text1">We are known for luxurious and<br class="footer-br-desktop">
+                    premium chaffeur services<br class="footer-br-desktop"> worldwide. We are simply the<br class="footer-br-desktop"> best you can find. <br> <br>
+                    Lorem ipsum dolor sit amet<br class="footer-br-desktop"> consectetur adipiscing elit<br class="footer-br-desktop"> Lorem consectetur sagittis auctor</p>
             </div>
 
             <div class="news-letter">
                 <p class="news-letter-title">News Letter</p>
                 <p class="news-text">Subscribe to our news letter for <br> updates, news and exclusive offers</p>
-                <input class="news-email" type="email" name="email" id="" placeholder="Email">
-                <div class="div-to-padding"><input class="news-btn" type="button" value="Subscribe"></div>
+                <div class="flex-btn-desktop">
+                    <input class="news-email" type="email" name="email" id="" placeholder="Email">
+                    <div class="div-to-padding"><input class="news-btn" type="button" value="Subscribe"></div>
+                </div>
+                <div class="social-media-copy-desktop">
+                    <div class="social-media">
+                        <a href="#"><img src="img/facebook-icon.svg" alt="facebook logo" class="facebook-icon"></a>
+                        <a href="#"><img src="img/twitter-icon.svg" alt="twitter logo" class="twitter-icon"></a>
+                        <a href="#"><img src="img/instagram-icon.svg" alt="instagram logo" class="instagram-icon"></a>
+                    </div>
+    
+                    <div class="div-to-centralize-line">
+                        <div class="line-social-media"></div>
+                    </div>
+    
+                    <p class="copyright">© Copyright 2020 · LuxChauffeur All rights reserved </p>
+                </div>
             </div>
 
             <div class="contact-info-footer">

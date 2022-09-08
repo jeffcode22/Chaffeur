@@ -23,6 +23,10 @@
     font-size: 1em;
 }
 
+.history-content{
+    display: block;
+}
+
 .history-content:nth-child(1){
     padding: 3em 0 3em 0;
 }
@@ -31,6 +35,34 @@
     padding: 0em 0 3em 0;
 }
 
+@media screen and (min-width: 1024px){
+    .history-desktop{
+        width: 100vw;
+    }
+    .company-history, .history-content, .history-content:nth-child(1), .history-content:nth-child(2){
+        margin: 0;
+        padding: 0;
+    }
+    .company-history-desktop{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 19.125em;
+    }
+    .history-number{
+        font-size: 4.5em;
+    }
+    .history-text{
+        font-size: 1.5em;
+    }
+    .history-container-content{
+        display: flex;
+        align-items: center;
+    }
+    .history-content-desktop:nth-child(2){
+        padding: 0 18.125em;
+    }
+}
 /* testimonials */
 
 .company-testim{
@@ -70,8 +102,9 @@
 }
 
 .card-text{
+    display: block;
     padding-top: 1.5em;
-    font: .9em "Nunito Sans", serif;
+    font: 1em "Nunito Sans", serif;
     font-style: italic;
     font-weight: 400;
     color: #272727;
@@ -83,19 +116,19 @@
 }
 
 .avatarPics , .avatar-pics{
-    width: 3.5em;
-    height: 3.5em;
+    width: 5em;
+    height: 5em;
     border-radius: 50%;
 }
 
 .client-name, .clientName{
-    font: 1em "Nunito Sans", serif;
+    font: 1.3em "Nunito Sans", serif;
     font-weight: 700;
     color: #272727;
 }
 
 .client-city, .clientCity{
-    font: .8em "Nunito Sans", serif;
+    font: .9em "Nunito Sans", serif;
     font-weight: 300;
     color: #979797;
 }
@@ -125,4 +158,75 @@
 
 #btn-testim-remove{
     background-color: #FFFFFF;
+}
+
+.card-text-2{
+    display: none;
+}
+
+.feedback-img-desktop{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+    .testim-container{
+        height: 48.688em;
+        width: 100vw;
+    }
+    .card-testim{
+        height: 25em;
+        width: 70%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .testim-title{
+        font-size: 3em;
+    }
+    .avatarPics{
+        width: 9em;
+        height: 9em;
+        border-radius: 50%;
+        margin-bottom: 1em;
+    }
+    .clientName{
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+    .clientCity{
+        font-size: 1em;
+        font-style: italic;
+    }
+    .feedback-img-desktop{
+        padding-top: 3em;
+        margin: auto;
+        display: block;
+        width: 9em;
+    }
+    .feedback-img{
+        display: none
+    }
+    .card-text-2{
+        display: block;
+        font: 1em "Nunito Sans", serif;
+        font-style: italic;
+        font-weight: 400;
+        color: #272727;
+        line-height: 1.313em;
+        padding: 5em 0 0 5em;
+    }
+    .card-text{
+        display: none;
+    }
+    .client-text-desktop{
+        display: block;
+        padding-top: 2em;
+    }
+    .client-info-desktop{
+        display: block;
+        padding-top: 6em;
+    }
+    .btn-icon-testim{
+        height: 1em;
+        width: 1em;
+    }
 }

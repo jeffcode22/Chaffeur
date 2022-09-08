@@ -4,14 +4,11 @@
 }
 
 .section-2-img{
-    min-width: 95vw;
-    max-width: 95vw;
+    width: 95%;
 }
 
 .section-2-text{
-    margin-top: 1.375em;
-    margin-left: 2em ;
-    margin-right: 2em;
+    margin: 1.375em 2em 6em 2em;
     font: var(--size-font-p);
     color: #232730;
     font-weight: 400;
@@ -35,4 +32,30 @@
 
 .section-2-p3{
     margin-bottom: 5.5em;
+}
+
+@media screen and (min-width: 1024px) {
+    .section-2{
+        display: flex;
+        margin: 0 5.75em 8.5em 5.75em;
+    }
+    .section-2-img{
+        width: 40vw;
+    }
+    .section-2-text{
+        text-align: left;
+        margin: 0 0 0 5em;
+    }
+
+    .section-2-title{
+        font-size: 2.5em;
+        font-weight: 400;
+    }
+    .section-2-all-p{
+        font-size: 1em;
+        font-weight: 700;
+    }
+    .to-centralize-text{
+        margin: auto 0;
+    }
 }

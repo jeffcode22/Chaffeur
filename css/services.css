@@ -1,7 +1,7 @@
 .section-3{
     background-color: rgba(0,0,0,100);
     background-image:url(/img/section-3-bg.svg);
-    height: 78em;
+    height: 80em;
     min-width: 23.938em;
     background-repeat: repeat-x;
     background-size: cover;
@@ -17,8 +17,8 @@
     color: var(--color-titles);
     font: var(--size-font-titles);
     font-weight: var(--weight-titles);
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .star-icon{
@@ -74,4 +74,51 @@
     margin-top: 3.5em;
 }
 
+@media screen and (min-width: 1024px) {
+    .section-3{
+        height: 47.188em;
+    }
+    .all-services-container{
+        display: flex;
+        justify-content: center;
+    }
+    .section-3-title{
+        padding: 0;
+        margin: 0;
+    }
+    .section-3-text{
+        text-align: left;
+        font-size: 1em;
+        font-weight: 400;
+    }
+    .services-title{
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+    .diamond-icon, .services-2-text1, .services-2-title, .chaffeur-icon, .services-1-text1, .section-3-text, .star-icon, .section-3-title{
+        margin: 0;
+        padding: 0;
+    }
+    .diamond-icon, .chaffeur-icon, .star-icon{
+        width: 6.5em;
+    }
+    .diamond-icon{
+        width: 7.5em;
+
+    }
+    .section-3-title-desktop{
+        padding: 2em 0 1.5em 0;
+        font-size: 3em;
+        font-weight: 700;
+    }
+    .services-1, .services-2, .services-3{
+        padding: 1em 3em 0 3em;
+    }
+    .star-icon-desktop, .chaffeur-icon-desktop , .diamond-icon-desktop{
+        padding-bottom: 3em;
+    }
+    .services-title-desktop{
+        padding-bottom: 2em;
+    }
+}
 

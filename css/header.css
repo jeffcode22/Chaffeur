@@ -99,3 +99,72 @@
     margin: 8em 0 7.5em 0;
     min-width: 100%;
 }
+
+.menu-list-desktop, .car-desktop{
+    display: none;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    body{
+        width: 100vw;
+    }
+    .header{
+        background-color: var(--main-white);
+    }
+    .nav{
+        margin: 0 4em;
+        box-shadow: none;
+    }
+    .hambu-menu{
+        display: none;
+    }
+
+    .menu-list-desktop{
+        display: flex;
+    }
+
+    .list-target{
+        margin: 0 3em;
+        font: 1em "Noto Sans", sans-serif;
+        color: #232730;
+        font-weight: 400;
+    }
+
+    .list-target:nth-child(1){
+        color: #A55C30;
+    }
+
+    .article-1{
+        margin: 1.5em 0 0 4em;
+    }
+    
+    .rectangle{
+        height: 15em;
+        margin-bottom: 4em;
+    }
+
+    .header-title{
+        font-size: 4em;
+    }
+
+    .car-1{
+        display: none;
+    }
+
+    .car-desktop{
+        display: flex;
+        padding-left: 36%;
+        
+    }
+
+    .car-img-desktop{
+        margin:6em 0em 0 0;
+        position: absolute;
+    }
+
+    .background-car{
+        margin-left: auto;
+    }
+}

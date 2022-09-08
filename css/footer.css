@@ -1,5 +1,5 @@
 .footer-container{
-    height: 71.5em;
+    height: 67em;
     background-color: #0C0C0C;
 }
 
@@ -136,5 +136,87 @@
     font: 0.75em "Nunito Sans", sans-serif;
     font-weight: 300;
     color: #F4F4F4;
+}
+
+.social-media-copy-desktop{
+    display: none;
+}
+
+.footer-br-desktop{
+    display: none;
+}
+
+.flex-btn-desktop{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+    .footer-container{
+        height: 27.313em;
+        display: flex;
+        justify-content: center;
+        padding: 4em 3em  3em;
+    }
+    .footer-logo-text, .footer-text1 , .news-letter, .news-text, .div-to-padding , .contact-info-footer, .contact-title-footer, .location-info-footer, .contact-email-footer, .contact-number-footer, .location-text-footer, .number-text-footer, .email-text-footer, .social-media-copy{
+        margin: 0;
+        padding: 0;
+    }
+    .social-media-copy{
+        display: none;
+    }    
+    .social-media-copy-desktop{
+        display: block;
+    }
+    .footer-br-desktop{
+        display: block;
+    }
+    .logo-footer{
+        padding-bottom: .3em;
+    }
+    .footer-text1{
+        text-align: left;
+        letter-spacing: .5px;
+    }
+    .news-letter-title{
+        padding-bottom: 1.7em;
+    }
+    .news-letter{
+        padding: 0 9em; 
+    }
+    .news-text{
+        padding-bottom: 1.3em;
+        letter-spacing: .5px;
+    }
+    .flex-btn-desktop{
+        display: flex;
+        padding: 0 1em 2.7em 1em;
+    }
+    .news-email{
+        width: 20vw;
+        height: 6.5vh;
+        margin-right: .5em;
+    }
+    .news-btn{
+        width: 9.5vw;
+        height: 6.5vh;
+        margin-left: .5em;
+    }
+    .line-social-media{
+        position: absolute;
+        width: 90vw;
+    }
+    .div-to-centralize-line{
+        padding-bottom: 2em;
+    }
+    .contact-title-footer{
+        padding-bottom: 1.7em;
+    }
+    .location-info-footer, .contact-number-footer, .contact-email-footer{
+        padding: 0 0 1em 0;
+    }
+
+    .location-text-footer, .number-text-footer ,.email-text-footer{
+        padding-left: 1.3em;
+    }
 }
 

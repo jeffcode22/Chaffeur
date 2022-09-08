@@ -78,3 +78,37 @@ function changeTestimCard(){
 }
 
 changeTestimCard()
+
+
+function changeBtnColorDesktop(){
+    const card1Desktop = document.getElementById("carCardJsDesktop1")
+    const card2Desktop = document.getElementById("carCardJsDesktop2")
+    const card3Desktop = document.getElementById("carCardJsDesktop3")
+
+    const btn1Desktop = document.getElementById("btn-1-car-desktop")
+    const btn2Desktop = document.getElementById("btn-2-car-desktop")
+    const btn3Desktop = document.getElementById("btn-3-car-desktop")
+
+    card1Desktop.addEventListener("mouseover", () => {
+        console.log("oi")
+        btn1Desktop.setAttribute("id", "btn-clicked-desktop")
+        btn2Desktop.setAttribute("id", "btn-remove-bg-desktop")
+        btn3Desktop.setAttribute("id", "btn-remove-bg-desktop")
+    })
+
+    card2Desktop.addEventListener("mouseover", () => {
+        console.log("oi")
+        btn2Desktop.setAttribute("id", "btn-clicked-desktop")
+        btn1Desktop.setAttribute("id", "btn-remove-bg-desktop")
+        btn3Desktop.setAttribute("id", "btn-remove-bg-desktop")
+    })
+
+    card3Desktop.addEventListener("mouseover", () => {
+        console.log("oi")
+        btn3Desktop.setAttribute("id", "btn-clicked-desktop")
+        btn2Desktop.setAttribute("id", "btn-remove-bg-desktop")
+        btn1Desktop.setAttribute("id", "btn-remove-bg-desktop")
+    })
+}
+
+changeBtnColorDesktop()

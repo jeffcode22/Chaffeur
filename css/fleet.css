@@ -16,7 +16,7 @@
     justify-content: center;
 }
 
-.cars-card{
+.cars-card-all{
     box-shadow: 0px 4px 30px 10px rgba(0,0,0,0.05);
     text-align: center;
     margin: 0 .9em 0 .9em;
@@ -30,14 +30,14 @@
     height: 7.563em;
 }
 
-.carTitles{
+.carTitles, .car-titles{
     font: 1em 'Nunito Sans', sans-serif;
     font-weight: 700;
     color: var(--color-titles);
     padding: 1.266em 0 .1em 0;
 }
 
-.carName{
+.carName, .car-name{
     padding-bottom: 1em;
     font-weight: 400;
     color: #232222F5;
@@ -106,4 +106,78 @@
 #suv-img-dom{
     width: 14.625em;
     height: 7.563em;
+}
+
+.car-text-desktop{
+    display: none;
+}
+
+.cars-card-1, .cars-card-3{
+    display: none;
+}
+
+.text-desktop-only{
+    display: none;
+}
+@media screen and (min-width: 1024px){
+    .section-4-title{
+        font-size: 3em;
+        font-weight: 700;
+    }
+    .car-btn{
+        display: none;
+    }
+    .car-btn-desktop{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 6em;
+    }
+    .btn-icon-desktop{
+        width: 1em;
+        height: 1em;
+        border-radius: 3em;
+        background-color: #E5E5E5;
+    }
+    #btn-clicked-desktop{
+        background-color: #F8D7A4 ;
+        transition: 1s;
+    }
+    
+    #btn-remove-bg-desktop{
+        background-color: #E5E5E5;
+        transition: 1s;
+    }
+    .btn-icon-desktop:nth-child(2){
+        margin: 0 2em;
+        background-color: #F8D7A4;
+    }
+    .cars{
+        width: 95vw;
+        margin: auto;
+        margin-bottom: 4em;
+    }
+    .cars-card-1, .cars-card-3{
+        display: block;
+    }
+    .text-desktop-only{
+        display: block;
+    }
+    .cars-card-all{
+        width: 45vw;
+        height: 70vh;
+    }
+    .cars-card-1:hover, .cars-card-2:hover, .cars-card-3:hover{
+        transition: 1.5s;
+        width: 45.8vw;
+    }
+    .car-description{
+        font-size: 1em;
+        padding: 0 5em;
+        padding-bottom: 2em;
+    }
+    .car-text-desktop{
+        display: block;
+    }
+
+
 }
